@@ -1,0 +1,12 @@
+.required-highlight {
+  color: red;
+}
+
+.ui .segment {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ui .text .container {
+  max-width: 800px;
+}
