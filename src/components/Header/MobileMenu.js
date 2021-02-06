@@ -89,7 +89,6 @@ const MobileMenu = ({ location: { pathname }, token, cartCount, signout }) => {
           active={activeItem === withPrefix('/')}
         >
           <Logo />
-          My Inventory
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item position="right">
@@ -116,11 +115,11 @@ const MobileMenu = ({ location: { pathname }, token, cartCount, signout }) => {
                 X
               </CloseButton>
               <StyledLink to="/" onClick={handleClose}>
-                Home
+                Form
               </StyledLink>
               <StyledDivider />
 
-              {token
+              {/* {token
                 ? [
                   <StyledLink to="/group" onClick={handleClose}>
                     Group
@@ -146,7 +145,7 @@ const MobileMenu = ({ location: { pathname }, token, cartCount, signout }) => {
                   <StyledLink to="/login/" onClick={handleClose} key={3}>
                     Sign In
                     </StyledLink>,
-                ]}
+                ]} */}
             </StyledContainer>
           </StyledSegment>
         </Portal>

@@ -22,7 +22,7 @@ const DesktopMenu = ({location: {pathname}, token, signout}) => {
         >
           <Logo />
         </Menu.Item>
-        {token ? (
+        {/* {token ? (
           <Menu.Menu position="right">
             <Menu.Item
               as={Link}
@@ -67,7 +67,7 @@ const DesktopMenu = ({location: {pathname}, token, signout}) => {
               Sign in
             </Menu.Item>
           </Menu.Menu>
-        )}
+        )} */}
       </Container>
     </Menu>
   )
