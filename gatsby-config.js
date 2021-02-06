@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Inventory Tool',
+    title: 'RevConnect',
     author: 'Chris Hogan',
-    description: 'Tool to help manage your food and supplies.',
+    description: '',
     siteUrl: 'https://idunnoyet.com/',
   },
   pathPrefix: '/',
@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Inventory Tool',
-        short_name: 'Inventory',
+        name: 'RevConnect',
+        short_name: 'RevConnect',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
